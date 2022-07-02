@@ -1,0 +1,90 @@
+<style>
+      * {
+    border: border-box;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+#navbar {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #7d6aab;
+    font-size: 1.5rem;
+    z-index: 1;
+  }
+
+#welcome-section{
+  height: 100vh;
+  width: 100%;
+  color: white;
+  text-align: center;
+  background: #262524;
+}
+
+h1{
+  font-size: 4em;
+  line-height: 1.4;
+  margin-bottom: 100px;
+  padding-top: 120px;
+}
+
+h3{
+  font-size: 2em;
+  line-height: 1.4;
+
+}
+
+h2{
+  text-align: center;
+}
+
+
+#projects{
+background: #262524; 
+color:#7d6aab; 
+text-align: center;
+}
+
+.project-tile{
+  display: block;
+  margin:  0 auto;
+  background: white;
+  color: black;
+}
+
+    .card{
+        margin: 10px;
+    }
+    
+    .btn{
+        width: 275px;
+        background-color: #dc3545;
+        color: #fff;
+    }
+
+    .card-body{
+        border: 1px solid star-dark;
+        opacity: 02;
+    }
+    .raw {
+  width: 100%;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 600px) {
+  #projects {
+    display: block;
+  }
+}
+
+    </style>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>survey form</title>
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+  </head>
+  <body>
+    <style>
+      body {
+        font-family: tahoma, sans-serif;
+        background-color: rgb(242, 161, 114);
+        font-size: 2rem;
+      }
+
+h1 {
+  font-family: tahoma;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 2rem;
+  
+}
+
+#survey-form {
+  max-width: 450px;
+  background-color: rgb(242, 88, 53);
+  margin: 0 auto;
+  z-index: 0;
+  border-radius: 10px;
+}
+
+.inputs {
+  display: block;
+  font-family: tahoma, sans-serif;
+  font-size: 18px;
+  width: 80%;
+  margin: auto;
+  margin-left: 10%;
+  height: 30px;
+  border:none;
+}
+
+label {
+  font-family: tahoma, sans-serif;
+  font-size: 1.5rem;
+  width: 80%;
+  margin: auto;
+  margin-left: 10%;
+  height: 20px;
+  border:none;
+}
+
+#dropdown {
+  font-family: tahoma;
+  width:80%;
+  margin: 30px auto;
+  margin-left: 10%;
+  height: 30px;
+  border:none;
+ }
+
+ fieldset {
+  font-family: tahoma;
+  font-size: 18px;
+  width: 80%;
+  margin: auto;
+  margin-left: 10%;
+  border:none;
+ }
+
+textarea {
+   display:block;
+   font-family: tahoma;
+   width:80%;
+   margin: 20px auto;
+ }
+
+
+ button {
+  display: block;
+  font-family: tahoma;
+  text-transform: uppercase;
+  font-size: 23px;
+  width: 65%;
+  height:45px;
+  margin: auto;
+  border-radius: 8px;
+  background: #d88303;
+  border: none;
+  color: white;
+}
+
+ #submit:hover {
+   cursor: pointer;
+   background: rgba(235, 68, 3, 0.76);
+ }
+ footer{
+   text-align: center;
+   color: rgba(235, 68, 3, 0.76);
+   margin: 20px;
+ }
+    </style>
+    <h1 id="title">Survey form</h1>
+    <p id="description">Kindly fill-in the form below to enable us serve you better.</p>
+    
+    <form id="survey-form">
+    <label id="name-label">What is your name?</label><input type="text" required id="name" placeholder="name" class="inputs"><br>
+    
+    <label id="email-label">What is your email?</label><input type="email" required id="email" placeholder="email" class="inputs"><br>
+    
+    <label id="number-label">What is your ID number?</label> <input type="number" min="1" max="11" id="number" placeholder="number" class="inputs"><br>
+    
+    
+      <select id="dropdown">
+        <option value="">Will you recommend our courses to others?</option>
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select><br>
+      <fieldset>
+        <input type="radio" id="true" name="true-false" value="true"><label>True</label><br>
+        <input type="radio" id="false" name="true-false" value="false"><label>False</label><br>
+
+        <input type="checkbox" id="did-learn" value="did-learn" name="yes-no"><label for="did-learn">I did learn lots of  new stuff.</label><br>
+        <input type="checkbox" id="didnt-learn" value="didnt-learn" name="yes-no"><label for="didnt-learn">I didn't learn anything new.</label><br>
+      </fieldset>
+      
+      <textarea rows="6" cols="30">Comment(s)</textarea>
+
+      <button id="submit" type="submit">Submit</button>
+      <br>
+      <br>
+    </form>
+    <footer>Copyright@sundaygodwin</footer>
+    </body>
+</html>
+    
+
+
+    <!--
+      <h1 id="title">Survey form</h1>
+    <p id="description">Kindly fill-in the form below to enable us serve you better.</p>
+    <form id="survey-form">
+    <label id="name-label">What is your name?</label><input type="text" required id="name" placeholder="name">
+    
+    <label id="email-label">What is your email?</label><input type="email" required id="email" placeholder="email">
+    
+    <label id="number-label">What is your ID number?</label> <input type="number" min="1" max="11" id="number" placeholder="number">
+            <select id="dropdown">
+        <option value="">Select an option</option>
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select>
+         <input type="radio" id="true" name="true-false" value="true">True
+      <input type="radio" id="false" name="true-false" value="false">False 
+            <input type="checkbox" id="yes" value="did-learn" name="yes-no"><label for="did-learn">I did learn lots of  new stuff.</label>
+      <input type="checkbox" id="no" value="didnt-learn" name="yes-no"><label for="didnt-learn">I didn't learn anything new.</label>
+            <textarea></textarea>
+
+      <button id="submit" type="submit"></button>
+    -->
+    
