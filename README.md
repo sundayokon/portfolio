@@ -1,2 +1,2 @@
 # portfolio
-These are projects i did while doing Responsive Web Design BootCamp with FreeCodeCamp January 2022. 
+These are projects I did while doing Responsive Web Design BootCamp with FreeCodeCamp in January 2022. 
